@@ -1,0 +1,175 @@
+html{
+	background: url(img/1.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.banner-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner-contents {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 1rem;
+    height: 100%;
+    color: aliceblue;
+}
+
+.banner-contents h1 {
+    font-weight: 800px;
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+}
+
+.banner-contents p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+
+.banner-right img {
+    width: 100%;
+    height: auto;
+}
+
+.produkt-container {
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.produkt-container h2{
+    font-size: 2.5rem;
+}
+
+.produkt-content {
+    max-width: 1200px;
+    margin: 2px auto;
+    display: grid;
+    display: flex;
+}
+
+.produkt {
+    color: aliceblue;
+}
+
+.produkt-card {
+    position: relative;
+    color: aliceblue;
+}
+
+.produkt-img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.produkt-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+.company-container{
+    background: var(--darkBlue);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.company-content {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2px 1px;
+    color: white;
+    text-align: center;
+}
+
+
+.gallery-container {
+    margin: 5px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.gallery-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery-item {
+    position: relative;
+    margin: 0 0.5px;
+    border: 13px solid white;
+}
+
+#gallery-item1{
+    height: 400px;
+}
+
+#gallery-item2 {
+    height: 400px;
+
+}
+
+#gallery-item3  {
+    height: 400px;
+}
+
+.gallery-item img{
+    height: 100%;
+    width: 250px;
+    object-fit: cover;
+}
+
+.nagradi {
+color: white;
+text-align: center;
+display: block;
+}
+
+
+footer {
+    color: white;
+    height: 250px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-content a {
+    margin: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+}
